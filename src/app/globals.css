@@ -1,0 +1,35 @@
+:root {
+  --magenta: #d23c77;
+  --super-magenta: #b5188e;
+  --tangerine: #dd4124;
+  --geranium-pink: #f6909d;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  content: none !important;
+}
+
+.slick-active i {
+  color: white !important;
+}
+
+.text-super-magenta {
+  color: var(--super-magenta);
+}
+
+.text-tangerine {
+  color: var(--tangerine);
+}
+
+.text-geranium-pink {
+  color: var(--geranium-pink);
+}
+
+.bg-geranium-pink {
+  background-color: var(--geranium-pink);
+}
+
+/* body {
+  overflow: hidden;
+} */

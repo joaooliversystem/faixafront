@@ -1,0 +1,47 @@
+.back-drop {
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+    position: fixed;
+    z-index: 5;
+    top: 5%;
+}
+
+.input-title {
+    text-align: left;
+}
+
+.bts {
+    margin-top: 40px;
+}
+
+.form-check-input:focus {
+    background-color: black;
+    border-color: black;
+}
+
+.form-check-input:focus::before {
+    background-color: black;
+}
+
+.bi-plus-circle-fill {
+    background-color: #d23c77;
+}
+
+.edit-icon-1:hover {
+    color: #D23C77;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.edit-icon-1 {
+    color: #FF6883;
+    margin-top: 2px;
+}

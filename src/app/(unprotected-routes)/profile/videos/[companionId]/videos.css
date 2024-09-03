@@ -1,0 +1,37 @@
+.delete-video-icon:hover {
+    color: #D23C77 !important;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.delete-video-icon {
+    color: #FF6883 !important;
+    margin-top: 2px;
+    margin-left: 10px; 
+}
+
+.delete-video-icon {
+    margin-top: 10px;
+}
+
+.add-video-container {
+    width: 400px;
+    height: 305px;
+    margin-left: 20px;
+}
+
+.add-video-icon-container {
+    width: 171px;
+    height: 305px;
+    border-radius: 5px!important;
+    border: 1px solid #ff4668;
+}
+
+.add-video-icon > * {
+    color: #ff4668!important;
+    cursor: pointer;
+}
+
+.add-video-icon > *:hover {
+    color: #d23c77!important;
+}
